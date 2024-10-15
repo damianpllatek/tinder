@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C155EE512CBE8DCE00339006 /* Turbo in Frameworks */ = {isa = PBXBuildFile; productRef = C155EE502CBE8DCE00339006 /* Turbo */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C155EE332CBE8CEC00339006 /* tinder-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tinder-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C155EE512CBE8DCE00339006 /* Turbo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = "tinder-ios";
 			packageProductDependencies = (
+				C155EE502CBE8DCE00339006 /* Turbo */,
 			);
 			productName = "tinder-ios";
 			productReference = C155EE332CBE8CEC00339006 /* tinder-ios.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = C155EE2A2CBE8CEC00339006;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C155EE4F2CBE8DCE00339006 /* XCRemoteSwiftPackageReference "turbo-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C155EE342CBE8CEC00339006 /* Products */;
 			projectDirPath = "";
@@ -333,6 +342,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C155EE4F2CBE8DCE00339006 /* XCRemoteSwiftPackageReference "turbo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hotwired/turbo-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C155EE502CBE8DCE00339006 /* Turbo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C155EE4F2CBE8DCE00339006 /* XCRemoteSwiftPackageReference "turbo-ios" */;
+			productName = Turbo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C155EE2B2CBE8CEC00339006 /* Project object */;
 }
