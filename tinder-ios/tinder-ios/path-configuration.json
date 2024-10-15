@@ -1,0 +1,18 @@
+{
+  "settings": {
+    "enable-feature-x": true
+  },
+  "rules": [
+    {
+      "patterns": [
+        "/new$",
+        "/edit$",
+        "/sign_in",
+        "/sign_up"
+      ],
+      "properties": {
+        "context": "modal"
+      }
+    },
+  ]
+}
