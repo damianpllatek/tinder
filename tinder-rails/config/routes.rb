@@ -13,4 +13,10 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "static#index"
+
+  namespace :turbo do
+    namespace :ios do
+      resource :path_configuration, only: [:show]
+    end
+  end
 end
