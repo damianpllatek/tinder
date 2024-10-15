@@ -6,63 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		C1CA04232CBE88FC00DEED2D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C1CA04092CBE88FB00DEED2D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C1CA04102CBE88FB00DEED2D;
-			remoteInfo = "tinder-ios";
-		};
-		C1CA042D2CBE88FC00DEED2D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C1CA04092CBE88FB00DEED2D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C1CA04102CBE88FB00DEED2D;
-			remoteInfo = "tinder-ios";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		C1CA04112CBE88FB00DEED2D /* tinder-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tinder-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1CA04222CBE88FC00DEED2D /* tinder-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tinder-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1CA042C2CBE88FC00DEED2D /* tinder-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tinder-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C155EE332CBE8CEC00339006 /* tinder-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tinder-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C155EE452CBE8CED00339006 /* Exceptions for "tinder-ios" folder in "tinder-ios" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C155EE322CBE8CEC00339006 /* tinder-ios */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C1CA04132CBE88FB00DEED2D /* tinder-ios */ = {
+		C155EE352CBE8CEC00339006 /* tinder-ios */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C155EE452CBE8CED00339006 /* Exceptions for "tinder-ios" folder in "tinder-ios" target */,
+			);
 			path = "tinder-ios";
-			sourceTree = "<group>";
-		};
-		C1CA04252CBE88FC00DEED2D /* tinder-iosTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "tinder-iosTests";
-			sourceTree = "<group>";
-		};
-		C1CA042F2CBE88FC00DEED2D /* tinder-iosUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "tinder-iosUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C1CA040E2CBE88FB00DEED2D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1CA041F2CBE88FC00DEED2D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1CA04292CBE88FC00DEED2D /* Frameworks */ = {
+		C155EE302CBE8CEC00339006 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C1CA04082CBE88FB00DEED2D = {
+		C155EE2A2CBE8CEC00339006 = {
 			isa = PBXGroup;
 			children = (
-				C1CA04132CBE88FB00DEED2D /* tinder-ios */,
-				C1CA04252CBE88FC00DEED2D /* tinder-iosTests */,
-				C1CA042F2CBE88FC00DEED2D /* tinder-iosUITests */,
-				C1CA04122CBE88FB00DEED2D /* Products */,
+				C155EE352CBE8CEC00339006 /* tinder-ios */,
+				C155EE342CBE8CEC00339006 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C1CA04122CBE88FB00DEED2D /* Products */ = {
+		C155EE342CBE8CEC00339006 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1CA04112CBE88FB00DEED2D /* tinder-ios.app */,
-				C1CA04222CBE88FC00DEED2D /* tinder-iosTests.xctest */,
-				C1CA042C2CBE88FC00DEED2D /* tinder-iosUITests.xctest */,
+				C155EE332CBE8CEC00339006 /* tinder-ios.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C1CA04102CBE88FB00DEED2D /* tinder-ios */ = {
+		C155EE322CBE8CEC00339006 /* tinder-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1CA04362CBE88FC00DEED2D /* Build configuration list for PBXNativeTarget "tinder-ios" */;
+			buildConfigurationList = C155EE462CBE8CED00339006 /* Build configuration list for PBXNativeTarget "tinder-ios" */;
 			buildPhases = (
-				C1CA040D2CBE88FB00DEED2D /* Sources */,
-				C1CA040E2CBE88FB00DEED2D /* Frameworks */,
-				C1CA040F2CBE88FB00DEED2D /* Resources */,
+				C155EE2F2CBE8CEC00339006 /* Sources */,
+				C155EE302CBE8CEC00339006 /* Frameworks */,
+				C155EE312CBE8CEC00339006 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C1CA04132CBE88FB00DEED2D /* tinder-ios */,
+				C155EE352CBE8CEC00339006 /* tinder-ios */,
 			);
 			name = "tinder-ios";
 			packageProductDependencies = (
 			);
 			productName = "tinder-ios";
-			productReference = C1CA04112CBE88FB00DEED2D /* tinder-ios.app */;
+			productReference = C155EE332CBE8CEC00339006 /* tinder-ios.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C1CA04212CBE88FC00DEED2D /* tinder-iosTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C1CA04392CBE88FC00DEED2D /* Build configuration list for PBXNativeTarget "tinder-iosTests" */;
-			buildPhases = (
-				C1CA041E2CBE88FC00DEED2D /* Sources */,
-				C1CA041F2CBE88FC00DEED2D /* Frameworks */,
-				C1CA04202CBE88FC00DEED2D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C1CA04242CBE88FC00DEED2D /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C1CA04252CBE88FC00DEED2D /* tinder-iosTests */,
-			);
-			name = "tinder-iosTests";
-			packageProductDependencies = (
-			);
-			productName = "tinder-iosTests";
-			productReference = C1CA04222CBE88FC00DEED2D /* tinder-iosTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C1CA042B2CBE88FC00DEED2D /* tinder-iosUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C1CA043C2CBE88FC00DEED2D /* Build configuration list for PBXNativeTarget "tinder-iosUITests" */;
-			buildPhases = (
-				C1CA04282CBE88FC00DEED2D /* Sources */,
-				C1CA04292CBE88FC00DEED2D /* Frameworks */,
-				C1CA042A2CBE88FC00DEED2D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C1CA042E2CBE88FC00DEED2D /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C1CA042F2CBE88FC00DEED2D /* tinder-iosUITests */,
-			);
-			name = "tinder-iosUITests";
-			packageProductDependencies = (
-			);
-			productName = "tinder-iosUITests";
-			productReference = C1CA042C2CBE88FC00DEED2D /* tinder-iosUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C1CA04092CBE88FB00DEED2D /* Project object */ = {
+		C155EE2B2CBE8CEC00339006 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					C1CA04102CBE88FB00DEED2D = {
+					C155EE322CBE8CEC00339006 = {
 						CreatedOnToolsVersion = 16.0;
-					};
-					C1CA04212CBE88FC00DEED2D = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = C1CA04102CBE88FB00DEED2D;
-					};
-					C1CA042B2CBE88FC00DEED2D = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = C1CA04102CBE88FB00DEED2D;
 					};
 				};
 			};
-			buildConfigurationList = C1CA040C2CBE88FB00DEED2D /* Build configuration list for PBXProject "tinder-ios" */;
+			buildConfigurationList = C155EE2E2CBE8CEC00339006 /* Build configuration list for PBXProject "tinder-ios" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = C1CA04082CBE88FB00DEED2D;
+			mainGroup = C155EE2A2CBE8CEC00339006;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = C1CA04122CBE88FB00DEED2D /* Products */;
+			productRefGroup = C155EE342CBE8CEC00339006 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C1CA04102CBE88FB00DEED2D /* tinder-ios */,
-				C1CA04212CBE88FC00DEED2D /* tinder-iosTests */,
-				C1CA042B2CBE88FC00DEED2D /* tinder-iosUITests */,
+				C155EE322CBE8CEC00339006 /* tinder-ios */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C1CA040F2CBE88FB00DEED2D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1CA04202CBE88FC00DEED2D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1CA042A2CBE88FC00DEED2D /* Resources */ = {
+		C155EE312CBE8CEC00339006 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C1CA040D2CBE88FB00DEED2D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1CA041E2CBE88FC00DEED2D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1CA04282CBE88FC00DEED2D /* Sources */ = {
+		C155EE2F2CBE8CEC00339006 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,21 +137,62 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		C1CA04242CBE88FC00DEED2D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C1CA04102CBE88FB00DEED2D /* tinder-ios */;
-			targetProxy = C1CA04232CBE88FC00DEED2D /* PBXContainerItemProxy */;
-		};
-		C1CA042E2CBE88FC00DEED2D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C1CA04102CBE88FB00DEED2D /* tinder-ios */;
-			targetProxy = C1CA042D2CBE88FC00DEED2D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		C1CA04342CBE88FC00DEED2D /* Debug */ = {
+		C155EE472CBE8CED00339006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tinder-ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.damianpllatek.tinder-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C155EE482CBE8CED00339006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tinder-ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.damianpllatek.tinder-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C155EE492CBE8CED00339006 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -321,16 +244,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		C1CA04352CBE88FC00DEED2D /* Release */ = {
+		C155EE4A2CBE8CED00339006 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,213 +301,38 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-			};
-			name = Release;
-		};
-		C1CA04372CBE88FC00DEED2D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "tinder-ios/tinder_ios.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"tinder-ios/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.damianpllatek.tinder-ios";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		C1CA04382CBE88FC00DEED2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "tinder-ios/tinder_ios.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"tinder-ios/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.damianpllatek.tinder-ios";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		C1CA043A2CBE88FC00DEED2D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.damianpllatek.tinder-iosTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tinder-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tinder-ios";
-				XROS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		C1CA043B2CBE88FC00DEED2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.damianpllatek.tinder-iosTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tinder-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tinder-ios";
-				XROS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		C1CA043D2CBE88FC00DEED2D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.damianpllatek.tinder-iosUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = "tinder-ios";
-				XROS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		C1CA043E2CBE88FC00DEED2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.damianpllatek.tinder-iosUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = "tinder-ios";
-				XROS_DEPLOYMENT_TARGET = 2.0;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C1CA040C2CBE88FB00DEED2D /* Build configuration list for PBXProject "tinder-ios" */ = {
+		C155EE2E2CBE8CEC00339006 /* Build configuration list for PBXProject "tinder-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1CA04342CBE88FC00DEED2D /* Debug */,
-				C1CA04352CBE88FC00DEED2D /* Release */,
+				C155EE492CBE8CED00339006 /* Debug */,
+				C155EE4A2CBE8CED00339006 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1CA04362CBE88FC00DEED2D /* Build configuration list for PBXNativeTarget "tinder-ios" */ = {
+		C155EE462CBE8CED00339006 /* Build configuration list for PBXNativeTarget "tinder-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1CA04372CBE88FC00DEED2D /* Debug */,
-				C1CA04382CBE88FC00DEED2D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C1CA04392CBE88FC00DEED2D /* Build configuration list for PBXNativeTarget "tinder-iosTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C1CA043A2CBE88FC00DEED2D /* Debug */,
-				C1CA043B2CBE88FC00DEED2D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C1CA043C2CBE88FC00DEED2D /* Build configuration list for PBXNativeTarget "tinder-iosUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C1CA043D2CBE88FC00DEED2D /* Debug */,
-				C1CA043E2CBE88FC00DEED2D /* Release */,
+				C155EE472CBE8CED00339006 /* Debug */,
+				C155EE482CBE8CED00339006 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C1CA04092CBE88FB00DEED2D /* Project object */;
+	rootObject = C155EE2B2CBE8CEC00339006 /* Project object */;
 }
