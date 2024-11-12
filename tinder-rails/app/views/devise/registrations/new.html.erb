@@ -6,10 +6,45 @@
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), data: { turbo_action: "replace" }) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
+<!--  <div class="field">-->
+<!--    <%#= f.label :email %><br />-->
+    <%#= f.email_field :email, autofocus: true, autocomplete: "email" %>
+<!--  </div>-->
+
+  <% options = [
+    { title: 'test1@example.com', index: 0 },
+    { title: 'test2@example.com', index: 1 },
+    { title: 'test3@example.com', index: 2 },
+    { title: 'test4@example.com', index: 3 },
+    { title: 'test5@example.com', index: 4 },
+    { title: 'test6@example.com', index: 5 },
+    { title: 'test7@example.com', index: 6 },
+    { title: 'test8@example.com', index: 7 },
+    { title: 'test9@example.com', index: 8 },
+    { title: 'test10@example.com', index: 9 },
+    { title: 'test11@example.com', index: 10 },
+    { title: 'test12@example.com', index: 11 },
+    { title: 'test13@example.com', index: 12 },
+    { title: 'test14@example.com', index: 13 },
+    { title: 'test15@example.com', index: 14 },
+    { title: 'test16@example.com', index: 15 },
+    { title: 'test16@example.com', index: 16 },
+    { title: 'test18@example.com', index: 17 },
+  ] %>
+
   <div class="field">
     <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+    <%= select_tag :email, options_for_select(options.map { |opt| [opt[:title], opt[:index]] }),
+                   data: {
+                     controller: "bridge--menu",
+                     "bridge--menu-title": "Select an Option",
+                     "bridge--menu-items": options.to_json
+                   },
+                   class: 'custom-select'
+    %>
   </div>
+
+
 
   <div class="field">
     <%= f.label :password %>
