@@ -1,4 +1,7 @@
-<h2>Log in</h2>
+<% content_for :title, "Log in" %>
+<% unless turbo_native_app? %>
+  <h2>Log in</h2>
+<% end %>
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name), data: { turbo_action: "replace" }) do |f| %>
   <div class="field">
